@@ -11,11 +11,15 @@ def basicS3Access():
     for b in s3.buckets.all():
         print(b.name)
 
-# credentials for connecting to the MySQL db
-db_creds = {'user': 'captecher',
-            'password': '123data',
-            'host': 'captechbootcamp.cat1vmhhjrmh.us-east-1.rds.amazonaws.com',
-            'database':'Bootcamp'}
+# read creds
+def readCreds():
+    """
+    read db credentials 
+
+    Output: dictionary with credentials
+    """
+    import json
+    return json.load(open('hidden/creds.json'))
 
 def getDBCursor(creds):
     """
