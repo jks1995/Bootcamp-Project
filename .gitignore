@@ -1,2 +1,4 @@
 hidden/
 .ipynb_checkpoints/
+.gitattributes
+.DS_Store
