@@ -1,3 +1,0 @@
-Postal Code,Place Name,State,State Abbreviation,County,Latitude,Longitude
-varchar(255),varchar(255),varchar(255),varchar(255),varchar(255),varchar(255),varchar(255)
-210,Portsmouth,New Hampshire,NH,Rockingham,43.0059,-71.0132
